@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&family=Noto+Sans&display=swap');
+
+:root {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Noto Sans', sans-serif;
+
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+}
+
+#root {
+  width: 100%;
+}
+
+.app-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.timeline {
+  widh: 100%;
+  max-width: 480px;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post-creator {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.post-creator-dp {
+  border-width: 0;
+  border-radius: 50%;
+}
+
+.post-creator-name {
+  margin: 0;
+}
+
+.post-photo {
+  max-width: 100%
+}
