@@ -1,5 +1,7 @@
 import { PostPhoto } from './PostPhoto';
 import { PostCreator } from './PostCreator';
+import { PostCaption } from './PostCaption';
+import { PostSocialInteractions } from './PostSocialInteractions';
 
 export const Post = ({ post }) => {
   const { creator, media, hash } = post;
@@ -12,14 +14,16 @@ export const Post = ({ post }) => {
           switch (mediaItem.type) {
             case 'image':
                 return <PostPhoto key={`${hash}-${mediaItem.type}-${index}`} imageUrl={mediaItem.imageUrl}/>
-              break;
-          
+
+            case 'text':
+                return <PostCaption key={`${hash}-${mediaItem.type}-${index}`} text={mediaItem.text} />;
+
             default:
                 return null;
-              break;
           }
         })
       }
+      <PostSocialInteractions />
     </div>
   )
 }

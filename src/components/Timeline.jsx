@@ -11,6 +11,38 @@ const posts = [
       {
         type: "image",
         imageUrl: "https://amankumarsaini28.github.io/stock-images/pets/1.jpg"
+      },
+      {
+        type: "text",
+        text: {
+          "root": {
+              "children": [
+                  {
+                      "children": [
+                          {
+                              "detail": 0,
+                              "format": 0,
+                              "mode": "normal",
+                              "style": "",
+                              "text": "Living life with my pets ❤️",
+                              "type": "text",
+                              "version": 1
+                          }
+                      ],
+                      "direction": "ltr",
+                      "format": "",
+                      "indent": 0,
+                      "type": "paragraph",
+                      "version": 1
+                  }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+          }
+        }
       }
     ]
   },
@@ -24,7 +56,39 @@ const posts = [
       {
         type: "image",
         imageUrl: "https://amankumarsaini28.github.io/stock-images/pets/2.jpg"
-      }
+      },
+      {
+        type: "text",
+        text: {
+          "root": {
+              "children": [
+                  {
+                      "children": [
+                          {
+                              "detail": 0,
+                              "format": 0,
+                              "mode": "normal",
+                              "style": "",
+                              "text": "Cats ❤",
+                              "type": "text",
+                              "version": 1
+                          }
+                      ],
+                      "direction": "ltr",
+                      "format": "",
+                      "indent": 0,
+                      "type": "paragraph",
+                      "version": 1
+                  }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+          }
+        }
+      },
     ]
   },
   {
