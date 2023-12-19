@@ -1,19 +1,9 @@
-import { EditorRefPlugin } from '@lexical/react/LexicalEditorRefPlugin';
 import { LexicalComposer } from '@lexical/react/LexicalComposer';
 import { RichTextPlugin } from '@lexical/react/LexicalRichTextPlugin';
 import {ContentEditable} from '@lexical/react/LexicalContentEditable';
 import LexicalErrorBoundary from '@lexical/react/LexicalErrorBoundary';
 
-import { editror } from 'lexical';
-
-
-import { useEffect, useRef, useState } from 'react';
-
-
-// const editorState = createEmptyEditorState();
-// console.log(EditorState);
-
-
+import { useRef, useState } from 'react';
 
 export const PostCaption = ({ text }) => {
   const ref = useRef();
